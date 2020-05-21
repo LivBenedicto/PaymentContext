@@ -1,0 +1,39 @@
+UBIQUITOUS LANGUAGE
+Dev and customer speaking the same language.
+* Knows about the business that you are working for. (leveling)
+* Automate customer speech.
+
+RICH DOMAIN (DDD) vs ANEMIC DOMAIN
+Anemic domain : domain objects that contain little or no business logic.
+
+SUB DOMAINS
+Domain segmentation (microservices).
+
+SEPARATION IN DELIMITED CONTEXTS
+Small pieces of the system.
+* batch size : change size (less things facilitate change)
+- smallest
+- functional
+- easy maintenance
+- easy undertanding
+
+ORGANIZING THE SOLUCTION
+>> Folders
+- Domain
+- Shared : items to share between the domains
+    ** multiple domains
+- Test
+
+>> Commands
+- dotnet new classlib : class library generates a dll after compiled.
+- dotnet new mstest : template "Unit Test Project".
+    * or xUnit.
+- dotnet sln add PaymentContext.Domain/PaymentContext.Domain.csproj : Project 'PaymentContext.Domain.csproj'
+sadded to the solution PaymentContext.Domain.
+    ** Do this with all sub domains.
+Then :
+- dotnet restore
+- dotnet build
+
+ENTITIES
+Customer requirements.
