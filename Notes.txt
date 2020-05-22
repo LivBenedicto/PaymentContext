@@ -36,4 +36,4 @@ Then :
 - dotnet build
 
 ENTITIES
-Customer requirements.
+Customer requirements (keywords).
