@@ -20,6 +20,7 @@ Small pieces of the system.
 ORGANIZING THE SOLUCTION
 >> Folders
 - Domain
+    ** reusable
 - Shared : items to share between the domains
     ** multiple domains
 - Test
@@ -37,3 +38,7 @@ Then :
 
 ENTITIES
 Customer requirements (keywords).
+
+GUID
+Globally Unique Identifier, - 128 bits.
+* or UUID : Universally Unique Identifier
